@@ -1,0 +1,24 @@
+#header{
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  padding: 20px 0;
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &--navbar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      h1{
+        color: white;
+        font-weight: 500;
+        font-size: 35px;
+        span{
+          font-size: 23px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,237 @@
+#add{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  .add{
+    width: 100%;
+    height: 75%;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &--input{
+      width: 80%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      &__block{
+        width: 40%;
+        margin-top: 30px;
+        h3{
+          color: white;
+          font-size: 23px;
+        }
+        input{
+          margin-top: 10px;
+          width: 100%;
+          height: 40px;
+          padding-left: 10px;
+          background: transparent;
+          border: 1px solid white;
+          color: white;
+          border-radius: 10px;
+          font-size: 22px;
+          outline: none;
+        }
+        select{
+          margin-top: 10px;
+          width: 60%;
+          height: 40px;
+          padding-left: 10px;
+          padding-right: 10px;
+          background: transparent;
+          border: 1px solid white;
+          color: white;
+          border-radius: 10px;
+          font-size: 22px;
+          option{
+            color: black;
+          }
+        }
+        textarea{
+          margin-top: 10px;
+          width: 100%;
+          height: 140px;
+          resize: none;
+          padding-left: 10px;
+          padding-top: 10px;
+          background: transparent;
+          border: 1px solid white;
+          color: white;
+          border-radius: 10px;
+          font-size: 22px;
+          outline: none;
+        }
+      }
+     .bl{
+       width: 100%;
+      }
+      &__btn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        button{
+          padding: 10px 90px;
+          display: flex;
+          align-items: center;
+          border-radius: 10px;
+          margin-top: 20px;
+          border: 1px solid white;
+          color: white;
+          font-size: 40px;
+          background: #ff5900;
+          transition: .4s;
+          &:hover{
+            background: transparent;
+          }
+        }
+      }
+    }
+
+    .myJobs{
+      width: 80%;
+      &--title{
+        font-size: 40px;
+        color: white;
+        margin: 40px 0;
+      }
+      &--group{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__block{
+          width: 100%;
+          padding: 10px 0 30px 50px;
+          margin: 30px 0;
+          border: 2px solid white;
+          border-radius: 20px;
+          .myJob--group__block--el{
+            h1{
+              color: white;
+              font-size: 30px;
+            }
+            h2{
+              color: #ff5900;
+              font-size: 23px;
+              margin-top: 8px;
+            }
+            h3{
+              color: white;
+              font-size: 22px;
+              margin-top: 30px;
+            }
+            h4{
+              color: white;
+              font-size: 18px;
+              margin-top: 5px;
+              a{
+                color: #ff5900;
+              }
+            }
+            h5{
+              color: #27a40c;
+              font-size: 20px;
+              margin: 20px 0;
+            }
+            p{
+              color: white;
+            }
+          }
+
+          .myJob--group__block--response{
+            h3{
+              font-size: 18px;
+              color: #ff5900;
+              margin-top: 30px;
+              span{
+                color: #27a40c;
+                font-size: 20px;
+              }
+            }
+
+            &__see{
+              margin-top: 10px;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              color: orange;
+              font-size: 25px;
+              width: 25%;
+              cursor: pointer;
+              h5{
+                color: white;
+                font-size: 18px;
+              }
+            }
+
+            &__users{
+              transition: .6s;
+              overflow: hidden;
+              &--user{
+                padding: 10px;
+                margin: 20px 0 20px 20px;
+                border: 2px solid white;
+                border-radius: 10px;
+                width: 30%;
+                position: relative;
+                h1{
+                  color: white;
+                  font-size: 22px;
+                }
+                h2{
+                  color: white;
+                  font-size: 20px;
+                  a{
+                    color: #ff5900;
+                  }
+                }
+                div{
+                  color: white;
+                  background: #ff5900;
+                  width: 30px;
+                  height: 30px;
+                  border-radius: 50%;
+                  position: absolute;
+                  left: -15px;
+                  top: -15px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                }
+              }
+            }
+          }
+
+          &--btn{
+            width: 80%;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            margin-top: 30px;
+            color: white;
+            font-size: 30px;
+            button{
+              margin: 0 10px;
+              padding: 8px 20px;
+              border-radius: 10px;
+              border: 1px solid white;
+              color: white;
+              font-size: 15px;
+              background: #ff5900;
+              transition: .4s;
+              &:hover{
+                background: transparent;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

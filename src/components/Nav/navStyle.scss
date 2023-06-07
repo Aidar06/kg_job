@@ -1,0 +1,48 @@
+#nav{
+  height: 100%;
+  width: 130px;
+  position: fixed;
+  right: 0;
+  display: flex;
+  align-items: center;
+  top: 0;
+  .nav{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    &--block{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 80%;
+      position: relative;
+      overflow: hidden;
+      transition: .5s;
+      &__icon{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 2px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 25px;
+        transition: .5s;
+        cursor: pointer;
+      }
+      &__line{
+        width: 110px;
+        height: 4px;
+        background: white;
+        border-radius: 3px;
+        position: absolute;
+        left: 70px;
+        transition: .5s;
+      }
+    }
+  }
+}
